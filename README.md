@@ -1,6 +1,6 @@
 # TipCalc
 
-![TipCalc Icon](path-to-your-icon.png)
+**TipCalc** is your go-to HTML5 and JavaScript tip generator
 
 ## Give Good Tips with TipCalc!
 
@@ -12,7 +12,7 @@
 - **Customizable Tax Rate**: Adjust the tax rate to match your county or city's requirements.
 - **Responsive Design**: Built with Tailwind CSS for a seamless experience on any device.
 
-![TipCalc Screenshot](path-to-your-screenshot.png)
+
 
 ### 🛠️ Technologies Used
 - **HTML5**: The backbone of the application, ensuring a solid structure.
