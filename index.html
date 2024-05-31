@@ -9,6 +9,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <style>
@@ -21,13 +22,13 @@
     <div class="bg-white p-10 rounded-lg shadow-lg max-w-lg w-full text-center">
         <h1 class="text-3xl font-bold mb-5">Tip Calculator</h1>
         <label for="billAmount" class="block text-xl font-semibold mb-2">Bill Amount:</label>
-        <input id="billAmount" type="number" class="w-full p-2 mb-4 border rounded">
+        <input id="billAmount" type="number" class="w-full p-2 mb-4 border border-gray-300 rounded">
         
         <label for="tipPercentage" class="block text-xl font-semibold mb-2">Tip Percentage:</label>
         <input id="tipPercentage" type="range" min="0" max="100" value="15" class="w-full mb-4">
         <div class="text-lg font-medium mb-4">Tip: <span id="tipAmount">15</span>%</div>
         
-        <button id="calculateBtn" class="bg-gradient-to-r from-green-400 to-blue-500 text-white font-bold py-2 px-4 rounded">
+        <button id="calculateBtn" class="bg-gradient-to-r from-green-400 to-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-gradient-to-r hover:from-green-500 hover:to-blue-600">
             Calculate Tip
         </button>
         
@@ -40,6 +41,5 @@
         &copy; Chris Corp 2025
     </footer>
     <script src="script.js"></script>
-	
 </body>
 </html>
