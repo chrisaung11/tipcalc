@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Personal Tip Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon_io/favicon.ico">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-10 rounded-lg shadow-lg max-w-lg w-full text-center">
+        <h1 class="text-3xl font-bold mb-5">Tip Calculator</h1>
+        <label for="billAmount" class="block text-xl font-semibold mb-2">Bill Amount:</label>
+        <input id="billAmount" type="number" class="w-full p-2 mb-4 border rounded">
+        
+        <label for="tipPercentage" class="block text-xl font-semibold mb-2">Tip Percentage:</label>
+        <input id="tipPercentage" type="range" min="0" max="100" value="15" class="w-full mb-4">
+        <div class="text-lg font-medium mb-4">Tip: <span id="tipAmount">15</span>%</div>
+        
+        <button id="calculateBtn" class="bg-gradient-to-r from-green-400 to-blue-500 text-white font-bold py-2 px-4 rounded">
+            Calculate Tip
+        </button>
+        
+        <div class="mt-4 text-xl">
+            <p>Total Tip: $<span id="totalTip">0.00</span></p>
+            <p>Total Amount: $<span id="totalAmount">0.00</span></p>
+        </div>
+    </div>
+    <footer class="fixed bottom-0 left-0 w-full text-center text-xs italic text-gray-600 font-light py-2">
+        &copy; Chris Corp 2025
+    </footer>
+    <script src="script.js"></script>
+	
+</body>
+</html>

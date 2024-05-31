@@ -1,0 +1,19 @@
+CACHE MANIFEST
+# ver .05 - embiggen
+# ver .04 - split files and updated jquery
+# ver .03.02 - cleaned up split functions, some refactoring
+# ver .03.01 - added split bill info for CC (laurie update)
+# ver .03.00- added slide to split, cleaned up text, added a reset page button
+# ver .02 - added apple touch icons and favicon
+index.html
+script.js
+style.css
+https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css
+https://code.jquery.com/jquery-1.11.1.min.js
+https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js
+images/Icon-60@2x.png
+images/Icon-60@3x.png
+images/Icon-76.png
+images/Icon-76@2x.png
+images/Icon-Small@2x.png
+images/favicon.ico
