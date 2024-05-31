@@ -1,16 +1,25 @@
-Tippy
-=====
+# TipCalc
 
-## Give Good Tips with Tippy!
+![TipCalc Icon](path-to-your-icon.png)
 
-Tippy is an html5 and javascript tip generator. Put in the amount and hit the **Tip Big** button. Then use the slider to split the bill among your friends.
+## Give Good Tips with TipCalc!
 
-Save this application to your home screen with a new, snazzy checkmark icon.
+**TipCalc** is your go-to HTML5 and JavaScript tip generator, now styled with the power of Tailwind CSS. Calculate tips and split bills effortlessly with a sleek and responsive interface.
 
-Don't forget to adjust the tax rate for your county / city. Los Angeles is 9% but 9.5% in some places.
+### 🌟 Features 🌟
+- **Easy Tip Calculation**: Enter the amount and hit the **Tip Big** button for instant tip suggestions.
+- **Bill Splitting**: Use the intuitive slider to split the bill among friends.
+- **Customizable Tax Rate**: Adjust the tax rate to match your county or city's requirements.
+- **Responsive Design**: Built with Tailwind CSS for a seamless experience on any device.
 
-    var tax = 1.08
+![TipCalc Screenshot](path-to-your-screenshot.png)
 
-The [App Icon Template](http://appicontemplate.com/ios8) is rad.
+### 🛠️ Technologies Used
+- **HTML5**: The backbone of the application, ensuring a solid structure.
+- **JavaScript**: Powers the dynamic tip calculation and bill splitting functionalities.
+- **Tailwind CSS**: Provides a modern, responsive design that looks great on any screen.
 
-[View this in your browser](http://sc137.github.io/tippy/)
+### 🚀 Quick Setup
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/chriscorp11/tipcalc.git
